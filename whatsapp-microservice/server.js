@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Configuration
-const WEBHOOK_URL = process.env.WEBHOOK_URL || 'https://wmzbqsegsyagcjgxefqs.supabase.co/functions/v1/webhook-whatsapp-personal';
+const WEBHOOK_URL = process.env.WEBHOOK_URL || 'https://rhwtdrtfklwjyohkrqps.supabase.co/functions/v1/webhook-whatsapp';
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'your-secret-key-here';
 const MICROSERVICE_SECRET = process.env.MICROSERVICE_SECRET || 'your-secret-key-here';
 const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS || '*';
