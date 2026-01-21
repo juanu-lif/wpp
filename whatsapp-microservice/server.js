@@ -631,7 +631,8 @@ app.post('/send', authMiddleware, async (req, res) => {
       formattedNumber = `${formattedNumber}@c.us`;
     }
     
-    const result = await client.sendMessage(formattedNumber, content);
+   const result = await client.sendMessage(formattedNumber, content, { sendSeen: false });
+
     
     console.log('✅ Message sent:', result.id.id);
     
