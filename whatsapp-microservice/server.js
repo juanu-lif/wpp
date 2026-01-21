@@ -217,7 +217,7 @@ async function initializeClient(agentId) {
       
       // Notify edge function about successful connection
       try {
-        const response = await fetch('https://wmzbqsegsyagcjgxefqs.supabase.co/functions/v1/whatsapp-personal-connect', {
+        const response = await fetch('https://rhwtdrtfklwjyohkrqps.supabase.co/functions/v1/webhook-whatsapp', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
